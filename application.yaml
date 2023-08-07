@@ -11,8 +11,8 @@ spec:
     targetRevision: HEAD
     path: dev
   destination:
-    server: 
-    namespace: 
+    server: https://kubernetes.defult.svc
+    namespace: my-app 
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
