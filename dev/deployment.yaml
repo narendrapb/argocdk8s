@@ -13,6 +13,6 @@ spec:
         app: argocd
     spec:
       - name: argocdcon
-        image: docker pull nanajanashia/argocd-app:1.0
+        image: nanajanashia/argocd-app:1.0
         ports:
         - containerPort: 8080
