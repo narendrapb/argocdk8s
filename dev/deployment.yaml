@@ -12,5 +12,6 @@ spec:
       labels:
         app: argocd
     spec:
-      - name: argocdcon
-        image: nanajanashia/argocd-app:1.0
+      containers:
+        - name: argocdcon
+          image: nginx
