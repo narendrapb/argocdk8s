@@ -4,7 +4,7 @@ metadata:
   name: argocdsvc
 spec:
   selector:
-    app: argocd1
+    app: argocdone
   ports:
   - port: 8080
     targetPort: 8080
