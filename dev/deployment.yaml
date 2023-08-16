@@ -5,12 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: argocd1
+      app: argocdone
   replicas: 2
   template:
     metadata:
       labels:
-        app: argocd1
+        app: argocdone
     spec:
       containers:
         - name: argocdcon
