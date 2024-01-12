@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: argocdcon
-          image: nginx:7
+          image: nginx:21
           ports:
           - containerPort: 8080
