@@ -1,19 +1,19 @@
-apiVersion: apps/v5
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: argocddeploymnt
+  name: myapp-deployment
 spec:
+  replicas: 1
   selector:
     matchLabels:
-      app: argocdone
-  replicas: 5
+      app: myapp
   template:
     metadata:
       labels:
-        app: argocdone
+        app: myapp
     spec:
       containers:
-        - name: argocdcon
-          image: narendrapujanaboyina/k8s:5
-          ports:
-          - containerPort: 5000
+      - name: myapp-container
+        image: narendrapujanaboyina/k8s:3
+        ports:
+        - containerPort: 5000
