@@ -16,4 +16,4 @@ spec:
       - name: myapp-container
         image: narendrapujanaboyina/k8s:7
         ports:
-        - containerPort: 5000
+        - containerPort: 3000
