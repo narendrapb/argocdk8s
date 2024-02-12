@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp-container
-        image: narendrapujanaboyina/k8s:7
+        image: narendrapujanaboyina/k8s:latest
         ports:
         - containerPort: 3000
